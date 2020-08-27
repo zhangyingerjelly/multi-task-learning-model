@@ -19,7 +19,7 @@ data的具体含义见data内的readme.md文档
 
 ## MMOE
 <Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts>
-实现了论文中的mmoe结构；
+ 实现了论文中的mmoe结构；
 ![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/mmoe.png)
-mmoe_v2进行改进，使能够支持多层mmoe结构。
+ mmoe_v2进行改进，使能够支持多层mmoe结构。
 
