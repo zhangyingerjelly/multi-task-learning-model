@@ -3,5 +3,5 @@
 本代码在data文件中提供了示例样本，为脱敏后的业务数据。
 ## ESMM
 《Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate》
-
+![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm.png)
 ## 
