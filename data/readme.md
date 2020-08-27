@@ -1,4 +1,4 @@
-## input以及label数据
+## 数据说明
 在 sample_train.csv  sample_valid.csv  sample_test.csv数据集中包含了采样后的示例数据。
 可使用pd.read_csv读取文件为dataframe.
 ### label:共四个，对应esmm_v2的图
