@@ -21,7 +21,7 @@ data的具体含义见data内的readme.md文档
 
 <img src="https://latex.codecogs.com/svg.latex?w_{u}=softmax\left&space;(&space;\widehat{w_{u}}&space;\right&space;)" title="w_{u}=softmax\left ( \widehat{w_{u}} \right )" />  
 
-<img src="https://latex.codecogs.com/svg.latex? \widehat{w_{u}}=\frac{\left&space;\langle&space;h_{2}(u),h_{3}(3)&space;\right&space;\rangle}{\sqrt{k}}" title="\widehat{w_{u}}=\frac{\left \langle h_{2}(u),h_{3}(3) \right \rangle}{\sqrt{k}}" />  
+<img src="https://latex.codecogs.com/svg.latex?\hat{w_{u}}=\frac{\left&space;\langle&space;h_{2}\left&space;(&space;u&space;\right&space;),h_{3}\left&space;(&space;u&space;\right&space;)&space;\right&space;\rangle}{\sqrt{k}}" title="\hat{w_{u}}=\frac{\left \langle h_{2}\left ( u \right ),h_{3}\left ( u \right ) \right \rangle}{\sqrt{k}}" /> 
 
 <div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v4.PNG" width="400" height="400"/></div>
 
