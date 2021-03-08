@@ -16,7 +16,7 @@ data的具体含义见data内的readme.md文档
 ### 业务迭代版 esmm_v3
 曝光——点击——申请——核验——激活。修改成了新的多目标模型结构，相比于esmm_v2, 前一步有更多的信息被引入到后一步中，且靠后的网络层能够很好的包含更高级的信息。该结构已申请发明专利。结构如下：
 
-<img src="https://latex.codecogs.com/svg.latex?L_{lc}\left&space;(&space;\Theta&space;\right&space;)=\frac{1}{N}\sum_{T=2}^{T}\sum_{x}^{N}max\left&space;(&space;y_{t}-&space;y_{t-1}&space;\right&space;)" title="L_{lc}\left ( \Theta \right )=\frac{1}{N}\sum_{T=2}^{T}\sum_{x}^{N}max\left ( y_{t}- y_{t-1} \right )" />
+<img src="https://latex.codecogs.com/svg.latex?L_{lc}\left&space;(&space;\Theta&space;\right&space;)=\frac{1}{N}\sum_{T=2}^{T}\sum_{x}^{N}max\left&space;(&space;y_{t}-&space;y_{t-1}&space;\right&space;)" title="L_{lc}\left ( \Theta \right )=\frac{1}{N}\sum_{T=2}^{T}\sum_{x}^{N}max\left ( y_{t} y_{t-1} \right )" />
 
 <img src="https://latex.codecogs.com/svg.latex?L\left&space;(&space;\Theta&space;\right&space;)=L_{ce}\left&space;(&space;\Theta&space;\right&space;)&plus;L_{lc}\left&space;(&space;\Theta&space;\right&space;)" title="L\left ( \Theta \right )=L_{ce}\left ( \Theta \right )+L_{lc}\left ( \Theta \right )" />
 
