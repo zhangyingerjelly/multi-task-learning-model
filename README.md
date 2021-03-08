@@ -19,9 +19,9 @@ data的具体含义见data内的readme.md文档
 相比于esmm_v3将前一步所有信息引入(concatenate),该版本加入Adaptive Information Transfer 模块，将t-1步的信息和第t步的信息自动计算权重再融合。  
 <img src="https://latex.codecogs.com/svg.latex?z_{t}=\sum_{u\epsilon&space;\left&space;\{&space;p_{t-1},q_{t}&space;\right&space;\}}^{}&space;w_{u}&space;h_{1}\left&space;(&space;u&space;\right&space;)" title="z_{t}=\sum_{u\epsilon \left \{ p_{t-1},q_{t} \right \}}^{} w_{u} h_{1}\left ( u \right )" />
 
-<img src="https://latex.codecogs.com/svg.latex?w_{u}=softmax\left&space;(&space;\widehat{w_{u}}&space;\right&space;)" title="w_{u}=softmax\left ( \widehat{w_{u}} \right )" />
+<img src="https://latex.codecogs.com/svg.latex?w_{u}=softmax\left&space;(&space;\widehat{w_{u}}&space;\right&space;)" title="w_{u}=softmax\left ( \widehat{w_{u}} \right )" />  
 
-<img src="https://latex.codecogs.com/svg.latex?\widehat{w_{u}}=\frac{\left&space;\langle&space;h_{2}(u),h_{3}(3)&space;\right&space;\rangle}{\sqrt{k}}" title="\widehat{w_{u}}=\frac{\left \langle h_{2}(u),h_{3}(3) \right \rangle}{\sqrt{k}}" />
+<img src="https://latex.codecogs.com/svg.latex?\widehat{w_{u}}=\frac{\left&space;\langle&space;h_{2}(u),h_{3}(3)&space;\right&space;\rangle}{\sqrt{k}}" title="\widehat{w_{u}}=\frac{\left \langle h_{2}(u),h_{3}(3) \right \rangle}{\sqrt{k}}" />  
 
 <div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v4.PNG" width="400" height="400"/></div>
 
