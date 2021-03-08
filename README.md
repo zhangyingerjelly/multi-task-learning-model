@@ -7,13 +7,12 @@ data的具体含义见data内的readme.md文档
 ### esmm_base：论文复现
 曝光——点击——支付；其中点击和支付是已知标签
 结构如下所示：
-![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm.png)
-
+<div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm.png" width="500" height="500" /></div>
 ### 业务迭代版 esmm_v2
-曝光——点击——申请——核验——激活，更多的中间目标。结构如下：
-<div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v2.png" width="600" height="500" /></div>
+曝光——点击——申请——核验——激活，更多的中间目标。结构如下，每个圆圈表示已知标签，可计算loss：
+<div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v2.png" width="500" height="500" /></div>
 ### 业务迭代版 esmm_v3
-修改成了新的多目标模型结构，相比于esmm_v2, 前一步有更多的信息被引入到后一步中，且靠后的网络层能够很好的包含更高级的信息。该结构已申请发明专利。结构如下：
+曝光——点击——申请——核验——激活。修改成了新的多目标模型结构，相比于esmm_v2, 前一步有更多的信息被引入到后一步中，且靠后的网络层能够很好的包含更高级的信息。该结构已申请发明专利。结构如下：
 <div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v3.PNG" width="600" height="600" /></div>
 
 ### 业务迭代版 esmm_v4
