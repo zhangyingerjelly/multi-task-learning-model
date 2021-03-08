@@ -15,11 +15,11 @@ data的具体含义见data内的readme.md文档
 
 ### 业务迭代版 esmm_v3
 修改成了新的多目标模型结构，相比于esmm_v2, 前一步有更多的信息被引入到后一步中，且靠后的网络层能够很好的包含更高级的信息。该结构已申请发明专利。结构如下：
-<img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v3.PNG" width="600" height="600"/><br/>
+<img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v3.PNG" width="600" height="600" /></div>
 
 ### 业务迭代版 esmm_v4
 相比于esmm_v3将前一步所有信息引入(concatenate),该版本加入Adaptive Information Transfer 模块，将t-1步的信息和第t步的信息自动计算权重再融合。
-<img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v4.PNG" width="400" height="400"/><br/>
+<div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v4.PNG" width="400" height="400"/><br/>
 
 ## MMOE
 <Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts>
