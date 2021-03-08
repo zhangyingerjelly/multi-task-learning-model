@@ -4,7 +4,7 @@
 data的具体含义见data内的readme.md文档
 ## ESMM架构
 《Entire Space Multi-Task Model: An Effective Approach for Estimating Post-Click Conversion Rate》
-### base版：论文
+### esmm_base：论文复现
 曝光——点击——支付；其中点击和支付是已知标签
 结构如下所示：
 ![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm.png)
