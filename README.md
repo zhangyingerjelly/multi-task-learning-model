@@ -15,11 +15,12 @@ data的具体含义见data内的readme.md文档
 
 ### 业务迭代版 esmm_v3
 修改成了新的多目标模型结构。该结构以申请发明专利。结构如下：
-![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v3.png)
+![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v3.PNG)
 
 ## MMOE
 <Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts>
  实现了论文中的mmoe结构；
+ 
 ![image](https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/mmoe.png)
  mmoe_v2进行改进，使能够支持多层mmoe结构。
 
