@@ -18,7 +18,7 @@ data的具体含义见data内的readme.md文档
 ### 业务迭代版 esmm_v4
 相比于esmm_v3将前一步所有信息引入(concatenate),该版本加入Adaptive Information Transfer 模块，将t-1步的信息和第t步的信息自动计算权重再融合。
 <div align=center><img src="https://github.com/zhangyingerjelly/multi-task-learning-model/blob/master/img/esmm_v4.PNG" width="400" height="400"/></div>
-
+\frac{a}{b}*\int_{a}^{b}
 ## MMOE
 <Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts>
  实现了论文中的mmoe结构,mmoe_v2进行改进，使能够支持多层mmoe结构。
