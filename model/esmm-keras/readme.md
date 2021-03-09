@@ -8,3 +8,4 @@
 ```
 python esmm_v3.py --epoch 2 --batch_size 1024 --valid_batch_size 2048 --lr 1e-3 --reg 1e-5 --embeddding_dim 4 --alpha 0.5
 ```
+The instruction of commands has been clearly stated in the codes (see the parse_args function).
