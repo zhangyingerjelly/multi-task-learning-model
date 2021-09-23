@@ -1,7 +1,8 @@
 # multi-task-learning-model
-基于keras的多任务模型，包括经典的阿里的esmm模型以及google的mmoe模型。以及业务迭代模型esmm_v3已经在公司业务上线。业务迭代模型esmm_v4 论文 "Modeling the Sequential Dependence among Audience" 被KDD2021收录。
+基于keras的多任务模型，包括经典的阿里的esmm模型以及google的mmoe模型。以及业务迭代模型esmm_v3已经在公司业务上线。业务迭代模型esmm_v4 论文 "Modeling the Sequential Dependence among Audience
 Multi-step Conversions with Multi-task Learning for Customer
-Acquisition"
+Acquisition"  被KDD2021收录。
+
 本代码在data文件中提供了示例样本，为脱敏后的业务数据。所有模型使用相同对数据。
 data的具体含义见data内的readme.md文档
 ## ESMM架构
